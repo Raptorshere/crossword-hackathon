@@ -1,5 +1,28 @@
 /* body and background layouts for the styles */
 
-.white {
-  
-}
+ .white {
+ font-size: 20px;
+ background-color: white;
+ border: 2px solid black;
+ }
+
+
+ table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+ }
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+ td {
+  border: 1px solid black;
+  padding: 1.6rem;
+  font-family: sans-serif;
+ }
